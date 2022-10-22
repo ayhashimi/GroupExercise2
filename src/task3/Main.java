@@ -29,5 +29,8 @@ public class Main
                 + truckTwo.carPrice + ", but because it was " + truckTwo.weight
                 + " kilograms in weight it received a discount and it's new price is $"
                 + truckTwo.calculateSalePrice());
+
+
+        //test
     }
 }
