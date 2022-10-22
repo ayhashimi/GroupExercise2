@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8dd4b67-08d3-4b4e-a8c4-d873df0fadd3" name="Changes" comment="">
+    <list default="true" id="f8dd4b67-08d3-4b4e-a8c4-d873df0fadd3" name="Changes" comment="test message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,8 +98,16 @@
       <updated>1666382953783</updated>
       <workItem from="1666382955056" duration="2687000" />
       <workItem from="1666446734651" duration="256000" />
-      <workItem from="1666447524651" duration="4343000" />
+      <workItem from="1666447524651" duration="6253000" />
     </task>
+    <task id="LOCAL-00001" summary="test message">
+      <created>1666452144014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666452144014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +123,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test message" />
+    <option name="LAST_COMMIT_MESSAGE" value="test message" />
   </component>
 </project>
