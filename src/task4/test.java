@@ -4,28 +4,82 @@ public class test
 {
     public static void main(String[] args)
     {
-        ChromeDriver cDriver = new ChromeDriver();
-        FirefoxDriver fDriver = new FirefoxDriver();
-        SafariDriver sDriver = new SafariDriver();
+        RemoteWebDriver [] array = {new ChromeDriver(), new FirefoxDriver(), new SafariDriver()};
 
-        System.out.println(cDriver.getTitle());
-        cDriver.open();
-        cDriver.navigate();
-        cDriver.getScreenshot();
-        cDriver.close();
-        System.out.println();
-
-        System.out.println(fDriver.getTitle());
-        fDriver.open();
-        fDriver.navigate();
-        fDriver.getScreenshot();
-        fDriver.close();
-        System.out.println();
-
-        System.out.println(sDriver.getTitle());
-        sDriver.open();
-        sDriver.navigate();
-        sDriver.getScreenshot();
-        sDriver.close();
+        for (RemoteWebDriver temp : array)
+        {
+            System.out.println(temp.getTitle());
+            temp.open();
+            temp.navigate();
+            temp.getScreenshot();
+            temp.close();
+            System.out.println();
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+interface calculator
+{
+
+    long valueOfE =  <insert value of E here>;
+
+    int add(int num1, int num2);
+    int subtract(int num1, int num2);
+    double divide(int num1, int num2);
+    int multiplication(int num1, int num2);
+
+}
+
+interface programmingCalc
+{
+    String convertToBinary(int num);
+}
+
+
+
+
+
+
+
+
+abstract class calculator
+{
+    final double valueOfE =  2.17243534152435353425;
+    //more constants...
+
+    abstract int add(int num1, int num2);
+    abstract int substract(int num1, int num2);
+    abstract int divide(int num1, int num2);
+    abstract int multiply(int num1, int num2);
+
+    void display(int value)
+    {
+        //work inside of methods = implementation
+        System.out.println(value);
+    }
+}
+
+
+
+
+
+*/
+
+
+
+
+

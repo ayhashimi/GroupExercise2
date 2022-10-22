@@ -29,6 +29,6 @@ public class SafariDriver implements RemoteWebDriver
     @Override
     public String getTitle()
     {
-        return "Firefox";
+        return "Safari";
     }
 }
