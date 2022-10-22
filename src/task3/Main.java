@@ -30,7 +30,5 @@ public class Main
                 + " kilograms in weight it received a discount and it's new price is $"
                 + truckTwo.calculateSalePrice());
 
-
-        //test
     }
 }
